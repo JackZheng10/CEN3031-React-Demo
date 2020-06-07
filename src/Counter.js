@@ -31,6 +31,8 @@ class Counter extends Component {
           container
           spacing={2}
           direction="row"
+          justify="center"
+          alignItems="center"
           style={{
             backgroundImage:
               "linear-gradient(to right, #8a2387, #e94057, #f27121)",
