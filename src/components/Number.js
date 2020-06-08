@@ -26,11 +26,7 @@ function Number(props) {
         <Typography variant="body1">{props.number}</Typography>
       </CardContent>
       <CardActions className={classes.cardActions}>
-        <IconButton
-          onClick={() => {
-            props.resetCounter();
-          }}
-        >
+        <IconButton onClick={props.resetCounter}>
           <RotateLeftIcon />
         </IconButton>
       </CardActions>
